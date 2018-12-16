@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MusicPlayer.cs" />
+    <Compile Include="Assets\Player.cs" />
     <None Include="Assets\StarSparrow\ReadMe.txt" />
     <None Include="Assets\Materials\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
     <None Include="Assets\StarSparrow\Materials\Unified\UnifiedMaterials.txt" />
