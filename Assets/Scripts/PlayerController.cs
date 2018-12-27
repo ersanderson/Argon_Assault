@@ -43,10 +43,9 @@ public class PlayerController : MonoBehaviour {
     // called by string message from Collision Handler
     public void OnPlayerDeath()
     {
-        if (Time.time > 10)
-        { 
+        
         isControlEnabled = false;
-        }
+        
     }
 
 
