@@ -100,11 +100,13 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\ScoreBoard.cs" />
     <Compile Include="Assets\Scripts\SelfDestructor.cs" />
     <None Include="Assets\Asset Packs\StarSparrow\ReadMe.txt" />
     <None Include="Assets\Asset Packs\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Materials\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
+    <None Include="Assets\Fonts\FontReadme.txt" />
     <None Include="Assets\Asset Packs\StarSparrow\Materials\Unified\UnifiedMaterials.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Eric Sanderson/Documents/Udemy/Complete_C_UnityDev3D/4_Argon_Assault/Argon_Assault/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
