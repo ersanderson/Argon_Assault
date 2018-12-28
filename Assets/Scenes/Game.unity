@@ -595,10 +595,6 @@ Prefab:
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 1207252561500704, guid: 33942a27e06a55e498652847d7d15f99, type: 2}
-      propertyPath: m_Name
-      value: Player Death FX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33942a27e06a55e498652847d7d15f99, type: 2}
   m_IsPrefabParent: 0
