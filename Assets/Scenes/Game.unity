@@ -618,6 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!4 &615134778 stripped
@@ -935,6 +936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 50
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!1 &1252820854 stripped
@@ -953,6 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!1001 &1294015172
@@ -1110,7 +1113,7 @@ GameObject:
   - component: {fileID: 1441105939}
   - component: {fileID: 1441105941}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Score Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1184,7 +1187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b248ccf4a30adf24299d9e7e8d890b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 12
 --- !u!1 &1443811833 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1249553951781956, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
@@ -1201,6 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 50
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!1 &1470112174
@@ -1321,6 +1324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 50
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!1001 &1650525134
@@ -1585,6 +1589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126502786fa6d214d9765d3879e5bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePerHit: 12
   deathFX: {fileID: 1134038112514548, guid: a189e76f3cdc7794186c893cffc8a29c, type: 2}
   parent: {fileID: 1158482685}
 --- !u!1001 &2097948768
