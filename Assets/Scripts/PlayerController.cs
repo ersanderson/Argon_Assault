@@ -100,6 +100,7 @@ public class PlayerController : MonoBehaviour {
         foreach(GameObject gun in guns)
         {
             gun.SetActive(true);
+           
         }
     }
 

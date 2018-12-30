@@ -8,12 +8,15 @@ public class CollisionHandler : MonoBehaviour {
     [Tooltip("In Seconds")][SerializeField] float levelLoadDelay = 1f;
     [Tooltip("FX prefab on Player")][SerializeField] GameObject deathFX;
 
-	void OnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider collision)
     {
-        
-        StartDeathSequence();
-        deathFX.SetActive(true);
-        Invoke("ReloadScene", levelLoadDelay);
+        if(collision.gameObject.tag != "EnvTrigger")
+        {
+            StartDeathSequence();
+            deathFX.SetActive(true);
+            Invoke("ReloadScene", levelLoadDelay);
+        }
+       
         
     }
 
