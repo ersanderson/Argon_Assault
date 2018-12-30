@@ -385,7 +385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &181021077
 Animator:
   serializedVersion: 3
@@ -1228,7 +1228,12 @@ Prefab:
     - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
         type: 2}
       propertyPath: hits
-      value: 12
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
+        type: 2}
+      propertyPath: scorePerHit
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b, type: 2}
@@ -1629,7 +1634,12 @@ Prefab:
     - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
         type: 2}
       propertyPath: hits
-      value: 12
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
+        type: 2}
+      propertyPath: scorePerHit
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b, type: 2}
@@ -2019,7 +2029,7 @@ Prefab:
     - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
         type: 2}
       propertyPath: hits
-      value: 20
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 114088701156155806, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b,
         type: 2}
@@ -8089,7 +8099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1675169429
 Transform:
   m_ObjectHideFlags: 0
@@ -8465,7 +8475,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!154 &1909812034
 TerrainCollider:
